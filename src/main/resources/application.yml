@@ -1,7 +1,11 @@
 spring:
   datasource:
-    url: jdbc:h2:./memorydb
+    url: jdbc:h2:mem:testdb
+    username: murat
+    password: 1_p
   jpa:
     hibernate:
       ddl-auto: update
-    
+  web:
+    locale: en_US
+    locale-resolver: fixed

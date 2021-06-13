@@ -24,6 +24,8 @@ public class User {
 	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$")
 	private String password;
 	
+	//getters and setters
+	
 	public int getId() {
 		return id;
 	}
